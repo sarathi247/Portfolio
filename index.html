@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-----Header Section----->
+    <header class="header">
+        <nav class="nav bd_grid">
+            <div>
+                <a href="#" class="nav_logo">Sarathi</a>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_items"><a href="#home" class="nav_linkn active">Home</a></li>
+                    <li class="nav_items"><a href="#about" class="nav_linkn active">About </a></li> 
+                    <li class="nav_items"><a href="#skill" class="nav_linkn active">Skill</a></li>
+                    <li class="nav_items"><a href="#project" class="nav_linkn active">Project</a></li>
+                    <li class="nav_items"><a href="#resume" class="nav_linkn active">Resume</a></li>
+                    <li class="nav_items"><a href="#contact" class="nav_linkn active">Contact</a></li>
+                </ul>
+            </div>
+            <!----- Menu Icons----->
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu-alt-right'></i>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <!----HOME section-->
+        <section class="home bd_grid" id="home">
+            <div class="home data"  data-aos="fade-down">
+                <h1 class="home_title">Hi, <br>I'm <span class="home_title-color"> Sarathi</span></h1>
+                <a href="#conatact" class="botton">Contact</a>
+            </div>
+            <div class="home_social">
+                <a href="https://github.com/sarathi247" class="home_social_icon" data-aos="fade-down" data-aos-delay="250"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/sarathi-m24/" class="home_social_icon" data-aos="fade-down" data-aos-delay="300"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:sarathimurugan247@gmail.com" class="home_social_icon" data-aos="fade-down" data-aos-delay="350"><i class='bx bxl-google'></i></a>
+            </div>
+            <div class="home_image">
+                <img src="home-imge.png" data-aos="fade-down" data-aos-delay="500">
+            </div>
+        </section>
+        <!----ABOUT section--> 
+        <section class="about section" id="about">
+            <h2 class="section_title" data-aos="fade-down">About</h2>
+            <div class="about_container bd_grid">
+                <div class="about image">
+                    <img src="about-me.png" data-aos="fade-down" data-aos-delay="250">
+                </div>
+                <div>
+                    <p class="about_text" data-aos="fade-down" data-aos-delay="350">I'm Sarathi, a recent graduate and enthusiastic Software Developer eager to kickstart my career in software development. With a solid educational foundation and hands-on project experience, I am passionate about developing both front-end and back-end solutions that make a difference.
+
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!----SKILLS-->  
+        <section class="skills section" id="skill">
+            <h2 class="section_title" data-aos="fade-down">Skills</h2>
+            <div class="skills_container bd_grid">
+                <div class="skills_images">
+                    <img src="image-1.png " data-aos="fade-right" data-aos-delay="250" alt="Skill Image 1">
+                    <img src="image-2.png"  data-aos="fade-right" data-aos-delay="300" alt="Skill Image 2">
+                    <img src="image-3.png"  data-aos="fade-right" data-aos-delay="350" alt="Skill Image 3">
+                    <img src="image-4.png"  data-aos="fade-right" data-aos-delay="350" alt="Skill Image 4">
+                    <img src="image-5.png"  data-aos="fade-right" data-aos-delay="350" alt="Skill Image 5">
+                    <img src="image-6.png"  data-aos="fade-right" data-aos-delay="350" alt="Skill Image 6">
+                    <img src="image-7.png"  data-aos="fade-right" data-aos-delay="350" alt="Skill Image 7">
+                </div>
+            </div>
+        </section>
+        <!----PROJECT-->
+        <section class="project section" id="project">
+            <h2 class="section_title" data-aos="fade-down">Project</h2>
+            <div class="project_container bg_grid">
+                <div class="project_image"  data-aos="fade-down">
+                    <h1 class="project_title">Eye Disease Classification</h1>
+                    <img src="project-1.png" alt="Project 1">
+                </div>
+                <div class="project_image"  data-aos="fade-down">
+                    <h1 class="project_title">Studente Managment System</h1>
+                    <img src="project-2.png" alt="Project 2">
+                </div>
+            </div>
+        </section>
+        <!---Resume--->
+        <section class="resume section" id="resume">
+            <h2 class="section_title"  data-aos="fade-down">Resume</h2>
+            <div class="resume_container bg_grid">
+                <a href="https://drive.google.com/file/d/1Fr0LvKhr6qE0OquE01WlWXTGSBQe55ot/view?usp=sharing" target="_blank">View Resume</a>
+            </div>
+        </section>
+        <!----contact section-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title"  data-aos="fade-down">Contact</h2>
+            <div class="contact_container bg_grid">
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="Name" class="control_input" data-aos="fade-right" data-aos-delay="250">
+                    <input type="mail" placeholder="Email" class="control_input" data-aos="fade-right" data-aos-delay="300">
+                    <textarea name="" id="" cols="0" rows="10" class="control_input" data-aos="fade-right" data-aos-delay="350"></textarea>
+                    <input type="button" value="Send" class="control_button button" id="submit_button">
+    
+                </form>
+            </div>
+        </section>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        AOS.init({
+             duration: 1200, // values from 0 to 3000, with step 50ms
+             once: false, // whether animation should happen only once - while scrolling down
+        });
+    </script>
+
+    
+</body>
+</html>
